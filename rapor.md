@@ -15,7 +15,7 @@ Source = os.getcwd()
 
 for File in os.listdir(Source):
 
-4)Endswitch fonksiyonu ile dosyaların uzantılarını İf bloğu altında kontrol ediyorum
+4)Endswitch fonksiyonu ile dosyaların uzantılarını İf bloğu altında kontrol ediyorum.
 
 if File.endswith(".txt”, “.apk",".app",".bat",".cgi"…. vb):
 
@@ -31,6 +31,6 @@ if not os.path.isdir(Target_File):
 
 os.mkdir(Target_File)
 
-8)Rename fonksiyonu ile dizinlerin isimlerini değiştiriyorum
+8)Rename fonksiyonu ile dizinlerin isimlerini değiştiriyorum.
 
 os.rename(Source + "/" + File, Target_File + File)
