@@ -4,8 +4,7 @@
 
 # Proje Amacı: Hedef klasörde bulunan dosyaların uzantılarına göre klasörlere toplanmasını sağlamak.
 
-1) os kütüphanesini import ediyoruz. 
-Os kütüphanesi bize işletim sistemi hakkında bilgi verir ve işletim sistemiyle ilgili işler yapmamızı sağlar.
+1)os kütüphanesini import ediyoruz. Os kütüphanesi bize işletim sistemi hakkında bilgi verir ve işletim sistemiyle ilgili işler yapmamızı sağlar.
 
 # import os
 
@@ -13,7 +12,7 @@ Os kütüphanesi bize işletim sistemi hakkında bilgi verir ve işletim sistemi
 
 # Cad_Extension = [".dwg",".dxf"] ……
 
-3) Getcwd fonksiyonu ile bulunduğum konumu döndürüp kaynak değişkenine eşitliyorum. 
+3)Getcwd fonksiyonu ile bulunduğum konumu döndürüp kaynak değişkenine eşitliyorum. 
 
 # Source = os.getcwd()
 
@@ -33,7 +32,7 @@ Os kütüphanesi bize işletim sistemi hakkında bilgi verir ve işletim sistemi
 
 # Target_File = Source + "/Cad_Extension/", "/BackUp_Extension/” vb
 
-8) if not fonksiyonu altında Path fonksiyonu ile parametre olarak verilen değerin dizin olup olmadığını kontol ediyorum.
+8)if not fonksiyonu altında Path fonksiyonu ile parametre olarak verilen değerin dizin olup olmadığını kontol ediyorum.
  
 # if not os.path.isdir(Target_File):
 
