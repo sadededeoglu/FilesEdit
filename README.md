@@ -1,7 +1,5 @@
 # FilesEdit
 
-# Proje Adı: Files_Edit
-
 # Proje Amacı: Hedef klasörde bulunan dosyaların uzantılarına göre klasörlere toplanmasını sağlamak.
 
 1)os kütüphanesini import ediyoruz. Os kütüphanesi bize işletim sistemi hakkında bilgi verir ve işletim sistemiyle ilgili işler yapmamızı sağlar.
