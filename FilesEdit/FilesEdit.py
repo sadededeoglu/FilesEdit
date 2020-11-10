@@ -9,7 +9,7 @@ for File in os.listdir(Source):
 
 		if not os.path.isdir(Target_File):
 			os.mkdir(Target_File)
-		os.rename(Source + "/" + File, Target_File + File);
+		os.rename(Source + "/" + File, Target_File + File)
 
 	elif File.endswith(".ppt"):
 		Target_File = Source + "/ppt_Files/"
@@ -17,7 +17,7 @@ for File in os.listdir(Source):
 		if not os.path.isdir(Target_File):
 			os.mkdir(Target_File)
 
-		os.rename(Source + "/" + File, Target_File + File);
+		os.rename(Source + "/" + File, Target_File + File)
 
 	elif File.endswith(".docx"):
 #Bir karakter dizisinin hangi karakter dizisi ile bittiğini sorgulayabilir.
@@ -27,5 +27,5 @@ for File in os.listdir(Source):
 #İsdir:Parametre olarak verilen öğenin bir dizin olup olmadığını sorgular.
 			os.mkdir(Target_File)
 #Mkdir:Yeni dizinler oluşturabilmemizi sağlar.
-		os.rename(Source + "/" + File, Target_File + File);
+		os.rename(Source + "/" + File, Target_File + File)
 #Rename:Dizinlerin adlarını değiştirebiliriz.
