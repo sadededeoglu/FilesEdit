@@ -28,7 +28,7 @@
 
 7)Uzantısına göre yerleşmesi gereken klasörü belirtiyorum
 
-# Target_File = Source + "/Cad_Extension/", "/BackUp_Extension/” vb
+# Target_File = Source + "/Cad_Extension/"
 
 8)if not fonksiyonu altında Path fonksiyonu ile parametre olarak verilen değerin dizin olup olmadığını kontol ediyorum.
  
